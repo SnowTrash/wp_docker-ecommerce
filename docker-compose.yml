@@ -28,7 +28,7 @@ services:
       - MYSQL_DATABASE=${DB_NAME}
     restart: always
     ports:
-      - '3306:3306'
+      - '3309:3309'
 
   wordpress:
     build:
